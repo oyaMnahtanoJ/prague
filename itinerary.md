@@ -4,11 +4,11 @@
 
 Stops are listed in visiting order, without a daily timetable or visit durations. All hotel transfers use Jungmann Hotel, Jungmannovo náměstí 2. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Departure day is the early-start exception.
 
-Flight dates: Tel Aviv to Prague on 18 December; Prague to Tel Aviv on 24 December 2026. Airline and clock times are provisional pending ticket confirmation. Check the issued tickets for the final baggage allowance and fare conditions.
+Confirmed flights, all times local: 18 December, TLV 18:25 → PRG 21:35; 24 December, PRG 12:45 → TLV 17:35. Prague is one hour behind Israel on these dates. Check the issued tickets for baggage allowance and fare conditions.
 
 ## Fri · 18 Dec: Flight to Prague; settle in
 
-Flight to Prague on 18 December. Provisional airline and times: Smartwings, TLV 18:25 → PRG 21:35, local times. Confirm against the issued ticket. No sightseeing on arrival.
+Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed ticket times; flight duration 4 h 10 min. No sightseeing on arrival.
 
 - **Jungmann Hotel** (hotel); Bolt, including collection and final access walk · 40–65 min.
   After passport control and collecting your bags, order Bolt to Jungmannovo náměstí 2. Follow the pickup point shown in the app; the official airport taxi rank is not necessarily the Bolt meeting point. Allow roughly 30–45 min driving, plus collection and any short walk from a legal drop-off.
@@ -138,7 +138,7 @@ Evening: dinner near the lower end of Wenceslas Square, 5–10 min on foot, then
 
 ## Thu · 24 Dec: Breakfast, airport and home
 
-Flight home on 24 December. Provisional airline and times: Smartwings, PRG 12:45 → TLV 17:35, local times. Confirm against the issued ticket. Have breakfast and check out before the airport transfer.
+Flight home on 24 December: PRG 12:45 → TLV 17:35, local times. Confirmed ticket times; flight duration 3 h 50 min. Have breakfast and check out before the airport transfer.
 
 - **Prague Airport Terminal 1** (airport); Bolt, including pickup access and collection · 45–65 min.
   Take Bolt from Jungmann Hotel to Terminal 1 for the non-Schengen flight to Tel Aviv; reconfirm the terminal on the ticket. Allow roughly 30–45 min driving plus pickup access and collection. Aim to reach the terminal about three hours before departure, or earlier if instructed by the airline.

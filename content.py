@@ -21,7 +21,7 @@ def row(name, kind, mode, low, high, text, note='', target=None, cover=()):
 
 DAYS = [
  dict(id='d1', date='2026-12-18', label='Fri · 18 Dec', title='Flight to Prague; settle in',
-      intro='Flight to Prague on 18 December. Provisional airline and times: Smartwings, TLV 18:25 → PRG 21:35, local times. Confirm against the issued ticket. No sightseeing on arrival.',
+      intro='Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed ticket times; flight duration 4 h 10 min. No sightseeing on arrival.',
       rows=[row('Jungmann Hotel','hotel','Bolt, including collection and final access walk',40,65,
                 'After passport control and collecting your bags, order Bolt to Jungmannovo náměstí 2. Follow the pickup point shown in the app; the official airport taxi rank is not necessarily the Bolt meeting point. Allow roughly 30–45 min driving, plus collection and any short walk from a legal drop-off.',
                 'The transfer range starts after baggage collection, not at landing. Confirm late check-in and access if delayed. Choose a car that fits both travellers and your actual suitcases; eat before flying or arrange a late snack.',target=BASE)],
@@ -106,7 +106,7 @@ DAYS = [
       notes=[('Poor visibility or suspended funicular','Replace the tower with Strahov Library if the view is obscured or the funicular is not operating. Walk 5–7 min from Jungmann Hotel to Národní třída, take tram 22 to Pohořelec and walk to Strahov, approximately 35–50 min altogether. Allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.'),
              ('Waldstein Garden','Closed in December. Petřín provides the outdoor park time instead.')]),
  dict(id='d7', date='2026-12-24', label='Thu · 24 Dec', title='Breakfast, airport and home',
-      intro='Flight home on 24 December. Provisional airline and times: Smartwings, PRG 12:45 → TLV 17:35, local times. Confirm against the issued ticket. Have breakfast and check out before the airport transfer.',
+      intro='Flight home on 24 December: PRG 12:45 → TLV 17:35, local times. Confirmed ticket times; flight duration 3 h 50 min. Have breakfast and check out before the airport transfer.',
       rows=[row('Prague Airport Terminal 1','airport','Bolt, including pickup access and collection',45,65,
                 'Take Bolt from Jungmann Hotel to Terminal 1 for the non-Schengen flight to Tel Aviv; reconfirm the terminal on the ticket. Allow roughly 30–45 min driving plus pickup access and collection. Aim to reach the terminal about three hours before departure, or earlier if instructed by the airline.',
                 'Begin the pickup process about 4½ hours before departure, leaving contingency beyond the transfer estimate. Confirm the legal pickup point with the hotel and app. Check Christmas Eve breakfast arrangements; this travel day needs an earlier start than sightseeing days. If no driver accepts promptly, ask reception to arrange a taxi rather than consuming the airport margin.',target='Václav Havel Airport Prague Terminal 1')],

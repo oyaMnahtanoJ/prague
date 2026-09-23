@@ -5,7 +5,7 @@ Public planning itinerary for two, 18–24 December 2026.
 - [Live itinerary](https://oyamnahtanoj.github.io/prague/)
 - [Plain Markdown version](itinerary.md)
 
-The traveller has booked Jungmann Hotel, Jungmannovo náměstí 2, for six nights. Flight dates are 18 and 24 December; the original Smartwings flight times remain provisional because the latest supplied details contained dates but no times or airline. No final fare or baggage allowance is assumed. Airport journeys use Bolt. December English tours remain to be selected. This project has not made any reservations.
+The traveller has booked Jungmann Hotel, Jungmannovo náměstí 2, for six nights and confirmed the flight times: 18 December, TLV 18:25 to PRG 21:35; 24 December, PRG 12:45 to TLV 17:35, all local times. Flight durations are 4 h 10 min outbound and 3 h 50 min return. No airline, final fare or baggage allowance is inferred from the latest ticket details. Airport journeys use Bolt. December English tours remain to be selected. This project has not made any reservations.
 
 ## Edit and build
 

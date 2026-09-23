@@ -64,7 +64,7 @@ def build():
     fares = ''.join('<tr><td>'+e(label)+'</td>'+''.join(f'<td>{e(price(x))}</td>' for x in values)+'</tr>' for label,*values in FARES)
     transports = ''.join(f'<h3>{e(t)}</h3><p>{e(p)}</p>' for t,p in TRANSPORT)
     car = ''.join(f'<p>{e(p)}</p>' for p in CAR)
-    flight_summary = 'Flight dates: Tel Aviv to Prague on 18 December; Prague to Tel Aviv on 24 December 2026. Airline and clock times are provisional pending ticket confirmation. Check the issued tickets for the final baggage allowance and fare conditions.'
+    flight_summary = 'Confirmed flights, all times local: 18 December, TLV 18:25 → PRG 21:35; 24 December, PRG 12:45 → TLV 17:35. Prague is one hour behind Israel on these dates. Check the issued tickets for baggage allowance and fare conditions.'
     intro = 'Stops are listed in visiting order, without a daily timetable or visit durations. All hotel transfers use Jungmann Hotel, Jungmannovo náměstí 2. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Departure day is the early-start exception.'
     html = f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Prague, 18–24 December 2026: a route for two with transfer times, Troja Botanical Garden, two Christmas markets and shopping.">
