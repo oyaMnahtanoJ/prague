@@ -42,9 +42,9 @@ def day_html(day, number):
 
 TRANSPORT = [
  ('Walk short hops; save time on longer ones', 'Walk short central hops, normally up to about 22 minutes, allowing more for hills. For longer journeys, compare Bolt / Uber with public transport door to door, including collection, walking, waits and any traffic. A meaningful time saving is worth paying for; public transport is not compulsory just because it is cheaper.'),
- ('Where cars make sense', 'Use Bolt / Uber for both Troja legs and the airport. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.'),
+ ('Where cars make sense', 'Bolt is the chosen transfer for both airport journeys. Use Bolt / Uber for both Troja legs. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.'),
  ('Which tickets to buy', f'Use singles on walking-heavy days. On the Petřín day, a 24-hour app ticket costs {price(140)} per person and includes both funicular rides. A 72-hour app ticket costs {price(340)} per person; buy it only if you expect enough journeys to justify it.'),
- ('Airport alternative', f'Trolleybus 59 plus metro A and a final walk takes approximately 60–80 min door to door. Two 90-minute app tickets cost {price(92)}, excluding any applicable luggage supplement. The planned car is more convenient with bags and the late arrival.'),
+ ('Airport journeys by Bolt', 'Allow 40–65 min from the arrivals pickup process to Jungmann Hotel after collecting bags, and 45–65 min from hotel pickup access to the departure terminal. These include collection and any short access walk; the drive itself is roughly 30–45 min. Follow the app’s airport meeting point and confirm legal vehicle access near the hotel. Select a car with enough luggage capacity; live traffic, collection and fare estimates override these planning ranges.'),
 ]
 FARES = [('30 minutes',36,72,39),('90 minutes',46,92,50),('24 hours',140,280,150),('72 hours',340,680,350)]
 CAR = [
@@ -64,8 +64,8 @@ def build():
     fares = ''.join('<tr><td>'+e(label)+'</td>'+''.join(f'<td>{e(price(x))}</td>' for x in values)+'</tr>' for label,*values in FARES)
     transports = ''.join(f'<h3>{e(t)}</h3><p>{e(p)}</p>' for t,p in TRANSPORT)
     car = ''.join(f'<p>{e(p)}</p>' for p in CAR)
-    flight_price = f'Supplied fare: {price(343,"USD")} per person; {price(686,"USD")} for two. Working flight assumption, not a booking or a refreshed fare quote.'
-    intro = 'Stops are listed in visiting order, without a daily timetable or visit durations. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Recheck the first and last legs once you choose the hotel.'
+    flight_summary = 'Flight dates: Tel Aviv to Prague on 18 December; Prague to Tel Aviv on 24 December 2026. Airline and clock times are provisional pending ticket confirmation. Check the issued tickets for the final baggage allowance and fare conditions.'
+    intro = 'Stops are listed in visiting order, without a daily timetable or visit durations. All hotel transfers use Jungmann Hotel, Jungmannovo náměstí 2. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Departure day is the early-start exception.'
     html = f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Prague, 18–24 December 2026: a route for two with transfer times, Troja Botanical Garden, two Christmas markets and shopping.">
 <title>Prague</title><style>{(ROOT/'style.css').read_text()}</style></head><body>
@@ -73,9 +73,9 @@ def build():
 <header class="masthead container"><div class="eyebrow">18–24 December 2026</div><h1>Prague</h1>
 <div class="actions"><a href="itinerary.md">Plain-text itinerary</a><a href="https://github.com/oyaMnahtanoJ/prague">GitHub</a><button type="button" onclick="window.print()">Print / save PDF</button></div></header>
 <nav class="jump" aria-label="Jump to day or planning section"><div class="container">{nav}<a href="#stay">Stay</a><a href="#transport">Transport</a><a href="#book">Must book</a></div></nav>
-<main class="container" id="itinerary"><section aria-labelledby="week"><h2 id="week">The week at a glance</h2><div class="panel overview">{overview}</div><p class="small">{e(intro)}</p><p class="small">{e(flight_price)}</p></section>
+<main class="container" id="itinerary"><section aria-labelledby="week"><h2 id="week">The week at a glance</h2><div class="panel overview">{overview}</div><p class="small">{e(intro)}</p><p class="small">{e(flight_summary)}</p></section>
 {''.join(day_html(d,i) for i,d in enumerate(DAYS,1))}
-<section id="stay"><h2>Where to stay</h2><div class="panel"><h3>{e(HOTEL[0])}</h3><p>{e(HOTEL[1])}</p><p class="small">{e(HOTEL[2])}</p></div></section>
+<section id="stay"><h2>Your hotel</h2><div class="panel"><h3>{e(HOTEL[0])}</h3><p>{e(HOTEL[1])}</p><p class="small">{e(HOTEL[2])}</p></div></section>
 <section id="markets"><h2>The two Christmas markets</h2><div class="grid">{markets}</div></section>
 <section id="transport"><h2>Getting around, and what it costs</h2><p class="lede">Take Bolt / Uber when it saves meaningful time. Walk the compact centre; use public transport where it is equally quick or more direct.</p><div class="panel">{transports}<p class="small">{link('fares')} · {link('pid')} · {link('funicular')}</p></div>
 <div class="panel"><h3>Public transport fares</h3><div class="table-scroll"><table><thead><tr><th scope="col">Validity</th><th scope="col">App / adult</th><th scope="col">App / two adults</th><th scope="col">Paper / adult</th></tr></thead><tbody>{fares}</tbody></table></div>
@@ -84,7 +84,7 @@ def build():
 <section id="book"><h2>Must book ahead, and when</h2><p class="lede">The short advance-booking list for this plan. Buy the other admission tickets there.</p><div class="panel">{bookings}</div><div class="panel"><h3>Everything else: buy there</h3><p>{e(ON_DAY)}</p></div></section>
 </main><footer class="footer"><div class="container">Prague · 18–24 December 2026</div></footer></body></html>'''
     (ROOT/'index.html').write_text('\n'.join(line.rstrip() for line in html.splitlines())+'\n', encoding='utf-8')
-    md=['# Prague','','18–24 December 2026','',intro,'',flight_price,'']
+    md=['# Prague','','18–24 December 2026','',intro,'',flight_summary,'']
     for day in DAYS:
         md += [f'## {day["label"]}: {day["title"]}','',day['intro'],'']
         for r in day['rows']:
@@ -93,7 +93,7 @@ def build():
         if day['dinner']: md += ['',day['dinner']]
         md += [f'\n**{t}:** {p}' for t,p in day['notes']]
         md.append('')
-    md += ['## Where to stay','',f'### {HOTEL[0]}','',HOTEL[1],'',HOTEL[2],'','## The two Christmas markets','']
+    md += ['## Your hotel','',f'### {HOTEL[0]}','',HOTEL[1],'',HOTEL[2],'','## The two Christmas markets','']
     md += [f'- {n}: {why} {dates}; {day}.' for n,why,dates,day in MARKETS]
     md += ['','## Transport and costs','']
     for t,p in TRANSPORT: md += [f'**{t}:** {p}','']

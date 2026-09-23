@@ -3,7 +3,7 @@ from pathlib import Path
 from datetime import datetime
 from html.parser import HTMLParser
 import re
-from content import DAYS, REQUIRED, SOURCES
+from content import DAYS, REQUIRED, SOURCES, BASE, HOTEL, BOOKINGS
 
 ROOT = Path(__file__).resolve().parent
 errors = []
@@ -53,6 +53,17 @@ check(sum(r['kind']=='Christmas market' for d in DAYS for r in d['rows'])==2,'Mu
 check('three hours before departure' in html,'Missing airport margin guidance')
 check('no more than half the day' in html,'Missing Troja half-day limit')
 check('hall' in {c for r in DAYS[2]['rows'] for c in r['cover']}, 'Old Town Hall not moved to Sunday')
+check('Jungmann Hotel' in BASE and 'Jungmannovo náměstí 2' in BASE, 'Wrong hotel routing base')
+check(DAYS[0]['rows'][0]['target']==BASE, 'Arrival map does not point to booked hotel')
+check(all('Bolt' in DAYS[i]['rows'][0]['mode'] for i in (0,6)), 'Airport legs must use Bolt')
+check(all('Provisional' in DAYS[i]['intro'] for i in (0,6)), 'Unconfirmed flight times not labelled')
+check(not any(t=='Flights and hotel' for _,t,_,_ in BOOKINGS), 'Booked hotel remains on must-book list')
+for name in ('index.html','itinerary.md','README.md'):
+    document=(ROOT/name).read_text()
+    for stale in ('Haštalsk','Dlouhá třída','hotel area','Supplied fare','choose the hotel','Where to stay'):
+        check(stale not in document, f'Stale hotel or flight wording in {name}: {stale}')
+check(DAYS[3]['rows'][0]['high']<=5, 'Shopping route still uses old hotel transfer')
+check('2–5 min' in DAYS[5]['dinner'], 'Market return not updated for Jungmann Hotel')
 from build import price
 check(price(100)=='CZK 100 (≈NIS 14)','CZK conversion regression')
 check(price(686,'USD')=='USD 686 (≈NIS 2,070)','USD conversion regression')

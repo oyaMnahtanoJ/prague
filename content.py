@@ -1,6 +1,6 @@
 """Route in visiting order; durations describe transfers only."""
 UPDATED = '23 September 2026'
-BASE = 'Haštalské náměstí, Prague'
+BASE = 'Jungmann Hotel, Jungmannovo náměstí 2, 110 00 Prague, Czech Republic'
 CZK_NIS = 0.1413
 USD_NIS = 3.017
 SOURCES = {
@@ -21,16 +21,16 @@ def row(name, kind, mode, low, high, text, note='', target=None, cover=()):
 
 DAYS = [
  dict(id='d1', date='2026-12-18', label='Fri · 18 Dec', title='Flight to Prague; settle in',
-      intro='Assumed Smartwings flight: TLV 18:25 → PRG 21:35, local times. No sightseeing on arrival.',
-      rows=[row('Hotel in the Haštalská / Náměstí Republiky area','hotel','Bolt / Uber, including collection',40,65,
-                'After passport control and collecting your bags, order a car to the hotel.',
-                'Confirm late check-in. Eat before flying or arrange a late snack; do not rely on a restaurant kitchen remaining open.',target=BASE)],
+      intro='Flight to Prague on 18 December. Provisional airline and times: Smartwings, TLV 18:25 → PRG 21:35, local times. Confirm against the issued ticket. No sightseeing on arrival.',
+      rows=[row('Jungmann Hotel','hotel','Bolt, including collection and final access walk',40,65,
+                'After passport control and collecting your bags, order Bolt to Jungmannovo náměstí 2. Follow the pickup point shown in the app; the official airport taxi rank is not necessarily the Bolt meeting point. Allow roughly 30–45 min driving, plus collection and any short walk from a legal drop-off.',
+                'The transfer range starts after baggage collection, not at landing. Confirm late check-in and access if delayed. Choose a car that fits both travellers and your actual suitcases; eat before flying or arrange a late snack.',target=BASE)],
       dinner='A snack at the hotel if needed.', notes=[]),
  dict(id='d2', date='2026-12-19', label='Sat · 19 Dec', title='Hradčany, the Castle and Lobkowicz',
       intro='Breakfast at leisure. Approach the Castle from the west, then work east through the complex.',
       rows=[
        row('Hradčanské náměstí','historic square / Hradčany district','walk + tram + walk',35,50,
-           'Walk to Dlouhá třída; take a tram towards Malostranská, then tram 22 to Pohořelec. Walk downhill through Hradčany to the square.',
+           'From Jungmann Hotel, walk 5–7 min to Národní třída and take tram 22 towards Pohořelec, then walk 10–12 min downhill through Hradčany to the square. The total includes the tram ride and an ordinary wait; check the day’s routing before leaving.',
            'Bolt to a legal Hradčanské náměstí drop-off takes approximately 25–40 min including collection. Choose it if the live door-to-door comparison shows a meaningful saving; otherwise the tram route is straightforward.',cover=('hradcany',)),
        row('St Vitus Cathedral','cathedral interior','walk + entry allowance',10,15,
            'Enter the Castle complex and visit the ticketed cathedral interior. Buy the Castle circuit ticket once.',
@@ -43,14 +43,14 @@ DAYS = [
        row('Old Town Square Christmas Market','Christmas market','downhill walk + tram + walk',30,45,
            'Descend towards Malostranská, take a suitable tram towards Old Town, then walk to Staroměstské náměstí for the tree, stalls and illuminated façades.',
            'If the Castle stairs are slippery, return to the Castle tram stop or use a car from a legal road pickup.',cover=('old-market',)),
-      ], dinner='Evening: dinner in Old Town, about 5–10 min on foot from the market; then 5–15 min back to the hotel area.',
+      ], dinner='Evening: choose dinner on the Old Town route towards Jungmann Hotel, about 5–10 min from the market, then roughly 5–10 min to the hotel depending on the restaurant. Directly from Old Town Square to the hotel: walk 8–12 min.',
       notes=[('Saturday routing','The Jewish Museum is closed on Saturdays. Saturday also avoids the cathedral’s later Sunday tourist opening.')]),
  dict(id='d3', date='2026-12-20', label='Sun · 20 Dec', title='Troja, Old Town Hall and the Clock',
       intro='Troja takes no more than half the day, including travel. Return directly to Old Town for lunch, the Town Hall interiors and the square; no hotel break is built in.',
       rows=[
-       row('Fata Morgana, Prague Botanical Garden','tropical greenhouse','Bolt / Uber, including collection and entry walk',25,40,
-           'Go directly to the Fata Morgana entrance at Trojská 750/194. Focus on the greenhouse rather than trying to cover the entire garden.',
-           'Public transport takes approximately 45–65 min via Nádraží Holešovice; a car meaningfully reduces this cross-city journey. The greenhouse is closed on Mondays.',target='Fata Morgana Trojská 750/194 Prague',cover=('troja','fata')),
+       row('Fata Morgana, Prague Botanical Garden','tropical greenhouse','Bolt / Uber, including collection and entry walk',30,45,
+           'From Jungmann Hotel, use the app’s legal pickup point and go directly to the Fata Morgana entrance at Trojská 750/194. Focus on the greenhouse rather than trying to cover the entire garden.',
+           'Public transport takes approximately 50–70 min via metro A from Můstek, metro C from Muzeum to Nádraží Holešovice, then a bus and walking. A car is the planned time-saving option. The greenhouse is closed on Mondays.',target='Fata Morgana Trojská 750/194 Prague',cover=('troja','fata')),
        row('Troja outdoor collections','botanical garden / vineyard viewpoint','walk between garden sections',10,15,
            'Make one compact circuit through the ornamental garden towards St Claire’s Vineyard viewpoint. Skip distant collections; this is a short outdoor complement to the greenhouse.',
            'Leave through an open southern exit towards Kovárna for the car back to the centre.',target='Botanická zahrada Praha Kovárna'),
@@ -64,20 +64,20 @@ DAYS = [
            'Explore Staroměstské náměstí and see the Church of Our Lady before Týn from outside. This is the architectural visit; Saturday is for the Christmas market.',target='Church of Our Lady before Týn Prague',cover=('old-square','tyn')),
        row('Astronomical Clock','clock exterior','walk',2,3,
            'See the dial and façade. Catch the hourly procession if convenient; no need to wait for the next one just for the show.',target='Prague Astronomical Clock',cover=('clock',)),
-      ], dinner='Evening: dinner in Old Town, approximately 5–10 min on foot; another 5–15 min back to the hotel area.',
+      ], dinner='Evening: choose dinner towards Jungmann Hotel, approximately 5–10 min on foot, then another 5–10 min to the hotel depending on the restaurant. Directly from the Astronomical Clock to the hotel: walk 8–12 min.',
       notes=[]),
  dict(id='d4', date='2026-12-21', label='Mon · 21 Dec', title='Shopping',
       intro='A full shopping day with no museum reservations. Spend longer wherever you find things you like.',
       rows=[
-       row('Wenceslas Square shops','shopping boulevard / bookshops','walk from the hotel area',18,22,'Walk south through Old Town. Browse the boulevard and bookshops, including Luxor if desired.',target='Václavské náměstí Prague'),
+       row('Wenceslas Square shops','shopping boulevard / bookshops','walk from Jungmann Hotel',2,4,'Enter the lower end of the square via Můstek. Browse uphill along the boulevard and bookshops, including Luxor if desired; Luxor is about another 5–8 min along the square.',target='Můstek Václavské náměstí Prague'),
        row('Lunch near Wenceslas Square','meal','walk',3,5,'An unhurried lunch with no timed attraction afterwards.',target='Václavské náměstí Prague'),
        row('Na Příkopě','shopping street','walk',5,10,'Continue north-east through the shops towards Náměstí Republiky.',target='Na Příkopě Prague'),
        row('Palladium','shopping centre','walk',5,10,'Finish with the broadest selection of indoor shops on the route, with a coffee break whenever you want.'),
-      ], dinner='Evening: dinner around Náměstí Republiky or Haštalská, about 5–10 min on foot; another 5–10 min back to the hotel.',notes=[]),
+      ], dinner='Evening: dinner around Náměstí Republiky or along Na Příkopě towards the hotel, about 5–10 min from Palladium; then approximately 5–15 min to Jungmann Hotel depending on the restaurant. Directly from Palladium to the hotel: walk 15–18 min.',notes=[]),
  dict(id='d5', date='2026-12-22', label='Tue · 22 Dec', title='Jewish quarter and the Municipal House',
       intro='Give the Jewish quarter a substantial morning, then continue through Old Town to the Municipal House. The actual English-tour programme determines the afternoon order.',
       rows=[
-       row('Maisel Synagogue','synagogue / museum','walk',8,12,'Start the Jewish Town circuit. Buy a combined ticket including the Spanish and Old-New synagogues.',cover=('jewish',)),
+       row('Maisel Synagogue','synagogue / museum','walk from Jungmann Hotel',12,16,'Walk north through Old Town towards Maiselova and start the Jewish Town circuit. Buy a combined ticket including the Spanish and Old-New synagogues.',cover=('jewish',)),
        row('Pinkas Synagogue','synagogue / memorial','walk',4,6,'The memorial and exhibitions.'),
        row('Old Jewish Cemetery','historic cemetery','walk / site transition',2,5,'Continue through the cemetery route.'),
        row('Old-New Synagogue','historic synagogue interior','walk',3,5,'Visit the interior using the appropriate combined ticket.'),
@@ -87,14 +87,14 @@ DAYS = [
        row('Obecní dům, Municipal House','Art Nouveau interior tour','walk',2,5,
            'Take an English guided tour of the interiors.',
            'Reserve an available English tour for Tuesday. If necessary, exchange this visit with Sunday’s Old Town Hall block rather than forcing unavailable slots.',cover=('municipal',)),
-      ], dinner='Evening: dinner near Náměstí Republiky, about 5–10 min on foot; another 5–10 min back to the hotel area.',
+      ], dinner='Evening: dinner near Náměstí Republiky or along Na Příkopě towards the hotel, about 5–10 min on foot; then approximately 5–15 min to Jungmann Hotel depending on the restaurant. Directly from the Municipal House to the hotel: walk 12–16 min.',
       notes=[('Jewish Museum circuit','The Jewish Museum consists of several sites, not another building after the synagogues. The five sites above form the planned circuit.')]),
  dict(id='d6', date='2026-12-23', label='Wed · 23 Dec', title='Petřín, Lesser Town, books and Charles Bridge',
       intro='Reach Petřín by funicular, explore Lesser Town, then cross the bridge towards the final Christmas market.',
       rows=[
-       row('Petřín Tower','viewing tower','walk + tram + funicular + walk',45,65,
-           'Walk to Dlouhá třída, take a suitable tram towards Újezd, then the funicular uphill and walk to the tower.',
-           'The transfer includes ordinary waits. A 24-hour PID ticket covers the funicular and city transport.',cover=('petrin-tower',)),
+       row('Petřín Tower','viewing tower','walk + funicular + walk',35,55,
+           'From Jungmann Hotel, walk 18–22 min along Národní and across Most Legií to the Újezd funicular entrance. Take the funicular uphill, then walk to the tower. Alternatively, walk 5–7 min to Národní třída and take a suitable tram to Újezd if conditions favour it.',
+           'The total includes ordinary funicular waits, not a long queue. Confirm operation before setting out; if suspended, use the Pohořelec / Strahov alternative below. A 24-hour PID ticket covers the funicular and city transport.',cover=('petrin-tower',)),
        row('Petřín Hill','park / viewpoints','local walking',0,0,'Explore the tower surroundings and open paths before descending.',target='Petřín Gardens Prague',cover=('petrin',)),
        row('Lunch at Újezd','meal','walk + funicular downhill + walk',20,30,'Descend to Újezd and have lunch near the lower station.',target='Újezd Prague'),
        row('St Nicholas Church, Malá Strana','Baroque church interior','walk gently uphill',15,20,'The major Lesser Town church on Malostranské náměstí, not the different church in Old Town Square.',cover=('nicholas',)),
@@ -102,27 +102,26 @@ DAYS = [
        row('Shakespeare and Sons','bookshop interior','walk downhill',5,8,'Continue directly from the Lesser Town lanes to the English-language shelves at U Lužického semináře 10.',cover=('bookshop',)),
        row('Charles Bridge','historic bridge / riverside views','walk to bridge',3,5,'Cross from Lesser Town to Old Town, pausing for views and photographs. Walking straight across takes about 8–10 min, longer with stops.',cover=('bridge',)),
        row('Wenceslas Square Christmas Market','Christmas market','walk from the Old Town end of the bridge',18,22,'Continue through the Old Town lanes to the lower part of Václavské náměstí for the second main Christmas market.',cover=('wenceslas-market',)),
-      ], dinner='Evening: dinner nearby, 5–10 min on foot. Return to the hotel area in about 20–25 min on foot, or 15–25 min by metro and walking; pack tonight.',
-      notes=[('Poor visibility','Replace the tower with Strahov Library if the view is obscured. Travel via Pohořelec instead, approximately 35–50 min from the hotel area, then allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.'),
+      ], dinner='Evening: dinner near the lower end of Wenceslas Square, 5–10 min on foot, then approximately 3–10 min back to Jungmann Hotel depending on the restaurant. The hotel is only 2–5 min from the lower-square market area; no metro or car is needed. Pack tonight.',
+      notes=[('Poor visibility or suspended funicular','Replace the tower with Strahov Library if the view is obscured or the funicular is not operating. Walk 5–7 min from Jungmann Hotel to Národní třída, take tram 22 to Pohořelec and walk to Strahov, approximately 35–50 min altogether. Allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.'),
              ('Waldstein Garden','Closed in December. Petřín provides the outdoor park time instead.')]),
  dict(id='d7', date='2026-12-24', label='Thu · 24 Dec', title='Breakfast, airport and home',
-      intro='Assumed Smartwings flight: PRG 12:45 → TLV 17:35, local times. Have breakfast and check out before the airport transfer.',
-      rows=[row('Prague Airport Terminal 1','airport','pre-arranged car',30,45,
-                'Arrange collection early enough to reach the terminal about three hours before departure. Follow any earlier reporting instruction from the airline.',
-                'This travel day requires an earlier start than your sightseeing days. Confirm Christmas Eve breakfast and the pickup beforehand; no city stop on the way.',target='Václav Havel Airport Prague Terminal 1')],
+      intro='Flight home on 24 December. Provisional airline and times: Smartwings, PRG 12:45 → TLV 17:35, local times. Confirm against the issued ticket. Have breakfast and check out before the airport transfer.',
+      rows=[row('Prague Airport Terminal 1','airport','Bolt, including pickup access and collection',45,65,
+                'Take Bolt from Jungmann Hotel to Terminal 1 for the non-Schengen flight to Tel Aviv; reconfirm the terminal on the ticket. Allow roughly 30–45 min driving plus pickup access and collection. Aim to reach the terminal about three hours before departure, or earlier if instructed by the airline.',
+                'Begin the pickup process about 4½ hours before departure, leaving contingency beyond the transfer estimate. Confirm the legal pickup point with the hotel and app. Check Christmas Eve breakfast arrangements; this travel day needs an earlier start than sightseeing days. If no driver accepts promptly, ask reception to arrange a taxi rather than consuming the airport margin.',target='Václav Havel Airport Prague Terminal 1')],
       dinner='',notes=[]),
 ]
 
 HOTEL = (
- 'Haštalská / Haštalské náměstí to Náměstí Republiky',
- 'Look in north-eastern Old Town, around Haštalská and the quieter side streets towards Náměstí Republiky. This gives easy access to Old Town Square, breakfast cafés, the Municipal House, shopping, trams and metro B. Most nearby central walks are around 5–10 minutes; routes currently use Haštalské náměstí as the reference point.',
- 'Choose a rear or courtyard-facing room off the main tram streets and away from Dlouhá’s bars. Confirm sound insulation, heating, blackout curtains, a lift if needed and late check-in. Ask which way the actual room faces: the address alone does not establish quietness.',
+ 'Jungmann Hotel (hotel)',
+ 'Booked for six nights, 18–24 December 2026. Address: Jungmannovo náměstí 2, 110 00 Prague, Czech Republic. All hotel-related routes use this address. Můstek metro A/B and the lower end of Wenceslas Square are about 2–4 min away on foot; Old Town Square is about 8–12 min, Národní třída tram stop 5–7 min, and Palladium 15–18 min.',
+ 'Confirm late arrival and access after a flight delay, breakfast availability and the early Christmas Eve checkout. Request a quiet room and confirm the legal Bolt pickup/drop-off point; pedestrian access restrictions may mean a short walk with the bags. Hotel payment, breakfast inclusion and cancellation conditions are those on your reservation, not assumed here.',
 )
 BOOKINGS = [
- ('Now', 'Flights and hotel', 'Choose the flight fare deliberately and reserve the six-night hotel on free-cancellation terms where available. Check baggage, refundable deposits, the cancellation deadline and late check-in.', None),
  ('When travel is confirmed and the December programme opens', 'Municipal House English tour', 'Reserve a Tuesday tour. Check both this and the Old Town Hall programme before paying; the two visits can exchange days if needed.', 'municipal'),
  ('When travel is confirmed and Sunday slots are available', 'Old Town Hall English tour and tower', 'Reserve a Sunday afternoon tour and a product including the historical interiors and tower. Leave generous margin after Troja, the return journey and lunch.', 'hall'),
- ('1–3 days before departure home', 'Christmas Eve airport transfer', 'Arrange a reliable pickup with enough margin for the flight. If using an app reservation, check its conditions rather than assuming a driver is guaranteed.', None),
+ ('1–3 days before departure home', 'Christmas Eve Bolt pickup', 'Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown on Day 7. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.', None),
 ]
 MARKETS = [
  ('Old Town Square', 'The main tree, historic façades and flagship atmosphere.', '28 Nov 2026–6 Jan 2027', 'Saturday evening'),

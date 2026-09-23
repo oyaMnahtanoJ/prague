@@ -2,17 +2,17 @@
 
 18–24 December 2026
 
-Stops are listed in visiting order, without a daily timetable or visit durations. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Recheck the first and last legs once you choose the hotel.
+Stops are listed in visiting order, without a daily timetable or visit durations. All hotel transfers use Jungmann Hotel, Jungmannovo náměstí 2. Transfer ranges include ordinary waits where indicated and are estimates, not measured routes. Enjoy a calm breakfast and a late-morning start; choose any booked tours to suit that pace. Departure day is the early-start exception.
 
-Supplied fare: USD 343 (≈NIS 1,035) per person; USD 686 (≈NIS 2,070) for two. Working flight assumption, not a booking or a refreshed fare quote.
+Flight dates: Tel Aviv to Prague on 18 December; Prague to Tel Aviv on 24 December 2026. Airline and clock times are provisional pending ticket confirmation. Check the issued tickets for the final baggage allowance and fare conditions.
 
 ## Fri · 18 Dec: Flight to Prague; settle in
 
-Assumed Smartwings flight: TLV 18:25 → PRG 21:35, local times. No sightseeing on arrival.
+Flight to Prague on 18 December. Provisional airline and times: Smartwings, TLV 18:25 → PRG 21:35, local times. Confirm against the issued ticket. No sightseeing on arrival.
 
-- **Hotel in the Haštalská / Náměstí Republiky area** (hotel); Bolt / Uber, including collection · 40–65 min.
-  After passport control and collecting your bags, order a car to the hotel.
-  Confirm late check-in. Eat before flying or arrange a late snack; do not rely on a restaurant kitchen remaining open.
+- **Jungmann Hotel** (hotel); Bolt, including collection and final access walk · 40–65 min.
+  After passport control and collecting your bags, order Bolt to Jungmannovo náměstí 2. Follow the pickup point shown in the app; the official airport taxi rank is not necessarily the Bolt meeting point. Allow roughly 30–45 min driving, plus collection and any short walk from a legal drop-off.
+  The transfer range starts after baggage collection, not at landing. Confirm late check-in and access if delayed. Choose a car that fits both travellers and your actual suitcases; eat before flying or arrange a late snack.
 
 A snack at the hotel if needed.
 
@@ -21,7 +21,7 @@ A snack at the hotel if needed.
 Breakfast at leisure. Approach the Castle from the west, then work east through the complex.
 
 - **Hradčanské náměstí** (historic square / Hradčany district); walk + tram + walk · 35–50 min.
-  Walk to Dlouhá třída; take a tram towards Malostranská, then tram 22 to Pohořelec. Walk downhill through Hradčany to the square.
+  From Jungmann Hotel, walk 5–7 min to Národní třída and take tram 22 towards Pohořelec, then walk 10–12 min downhill through Hradčany to the square. The total includes the tram ride and an ordinary wait; check the day’s routing before leaving.
   Bolt to a legal Hradčanské náměstí drop-off takes approximately 25–40 min including collection. Choose it if the live door-to-door comparison shows a meaningful saving; otherwise the tram route is straightforward.
 - **St Vitus Cathedral** (cathedral interior); walk + entry allowance · 10–15 min.
   Enter the Castle complex and visit the ticketed cathedral interior. Buy the Castle circuit ticket once.
@@ -40,7 +40,7 @@ Breakfast at leisure. Approach the Castle from the west, then work east through 
   Descend towards Malostranská, take a suitable tram towards Old Town, then walk to Staroměstské náměstí for the tree, stalls and illuminated façades.
   If the Castle stairs are slippery, return to the Castle tram stop or use a car from a legal road pickup.
 
-Evening: dinner in Old Town, about 5–10 min on foot from the market; then 5–15 min back to the hotel area.
+Evening: choose dinner on the Old Town route towards Jungmann Hotel, about 5–10 min from the market, then roughly 5–10 min to the hotel depending on the restaurant. Directly from Old Town Square to the hotel: walk 8–12 min.
 
 **Saturday routing:** The Jewish Museum is closed on Saturdays. Saturday also avoids the cathedral’s later Sunday tourist opening.
 
@@ -48,9 +48,9 @@ Evening: dinner in Old Town, about 5–10 min on foot from the market; then 5–
 
 Troja takes no more than half the day, including travel. Return directly to Old Town for lunch, the Town Hall interiors and the square; no hotel break is built in.
 
-- **Fata Morgana, Prague Botanical Garden** (tropical greenhouse); Bolt / Uber, including collection and entry walk · 25–40 min.
-  Go directly to the Fata Morgana entrance at Trojská 750/194. Focus on the greenhouse rather than trying to cover the entire garden.
-  Public transport takes approximately 45–65 min via Nádraží Holešovice; a car meaningfully reduces this cross-city journey. The greenhouse is closed on Mondays.
+- **Fata Morgana, Prague Botanical Garden** (tropical greenhouse); Bolt / Uber, including collection and entry walk · 30–45 min.
+  From Jungmann Hotel, use the app’s legal pickup point and go directly to the Fata Morgana entrance at Trojská 750/194. Focus on the greenhouse rather than trying to cover the entire garden.
+  Public transport takes approximately 50–70 min via metro A from Můstek, metro C from Muzeum to Nádraží Holešovice, then a bus and walking. A car is the planned time-saving option. The greenhouse is closed on Mondays.
 - **Troja outdoor collections** (botanical garden / vineyard viewpoint); walk between garden sections · 10–15 min.
   Make one compact circuit through the ornamental garden towards St Claire’s Vineyard viewpoint. Skip distant collections; this is a short outdoor complement to the greenhouse.
   Leave through an open southern exit towards Kovárna for the car back to the centre.
@@ -65,14 +65,14 @@ Troja takes no more than half the day, including travel. Return directly to Old 
 - **Astronomical Clock** (clock exterior); walk · 2–3 min.
   See the dial and façade. Catch the hourly procession if convenient; no need to wait for the next one just for the show.
 
-Evening: dinner in Old Town, approximately 5–10 min on foot; another 5–15 min back to the hotel area.
+Evening: choose dinner towards Jungmann Hotel, approximately 5–10 min on foot, then another 5–10 min to the hotel depending on the restaurant. Directly from the Astronomical Clock to the hotel: walk 8–12 min.
 
 ## Mon · 21 Dec: Shopping
 
 A full shopping day with no museum reservations. Spend longer wherever you find things you like.
 
-- **Wenceslas Square shops** (shopping boulevard / bookshops); walk from the hotel area · 18–22 min.
-  Walk south through Old Town. Browse the boulevard and bookshops, including Luxor if desired.
+- **Wenceslas Square shops** (shopping boulevard / bookshops); walk from Jungmann Hotel · 2–4 min.
+  Enter the lower end of the square via Můstek. Browse uphill along the boulevard and bookshops, including Luxor if desired; Luxor is about another 5–8 min along the square.
 - **Lunch near Wenceslas Square** (meal); walk · 3–5 min.
   An unhurried lunch with no timed attraction afterwards.
 - **Na Příkopě** (shopping street); walk · 5–10 min.
@@ -80,14 +80,14 @@ A full shopping day with no museum reservations. Spend longer wherever you find 
 - **Palladium** (shopping centre); walk · 5–10 min.
   Finish with the broadest selection of indoor shops on the route, with a coffee break whenever you want.
 
-Evening: dinner around Náměstí Republiky or Haštalská, about 5–10 min on foot; another 5–10 min back to the hotel.
+Evening: dinner around Náměstí Republiky or along Na Příkopě towards the hotel, about 5–10 min from Palladium; then approximately 5–15 min to Jungmann Hotel depending on the restaurant. Directly from Palladium to the hotel: walk 15–18 min.
 
 ## Tue · 22 Dec: Jewish quarter and the Municipal House
 
 Give the Jewish quarter a substantial morning, then continue through Old Town to the Municipal House. The actual English-tour programme determines the afternoon order.
 
-- **Maisel Synagogue** (synagogue / museum); walk · 8–12 min.
-  Start the Jewish Town circuit. Buy a combined ticket including the Spanish and Old-New synagogues.
+- **Maisel Synagogue** (synagogue / museum); walk from Jungmann Hotel · 12–16 min.
+  Walk north through Old Town towards Maiselova and start the Jewish Town circuit. Buy a combined ticket including the Spanish and Old-New synagogues.
 - **Pinkas Synagogue** (synagogue / memorial); walk · 4–6 min.
   The memorial and exhibitions.
 - **Old Jewish Cemetery** (historic cemetery); walk / site transition · 2–5 min.
@@ -104,7 +104,7 @@ Give the Jewish quarter a substantial morning, then continue through Old Town to
   Take an English guided tour of the interiors.
   Reserve an available English tour for Tuesday. If necessary, exchange this visit with Sunday’s Old Town Hall block rather than forcing unavailable slots.
 
-Evening: dinner near Náměstí Republiky, about 5–10 min on foot; another 5–10 min back to the hotel area.
+Evening: dinner near Náměstí Republiky or along Na Příkopě towards the hotel, about 5–10 min on foot; then approximately 5–15 min to Jungmann Hotel depending on the restaurant. Directly from the Municipal House to the hotel: walk 12–16 min.
 
 **Jewish Museum circuit:** The Jewish Museum consists of several sites, not another building after the synagogues. The five sites above form the planned circuit.
 
@@ -112,9 +112,9 @@ Evening: dinner near Náměstí Republiky, about 5–10 min on foot; another 5�
 
 Reach Petřín by funicular, explore Lesser Town, then cross the bridge towards the final Christmas market.
 
-- **Petřín Tower** (viewing tower); walk + tram + funicular + walk · 45–65 min.
-  Walk to Dlouhá třída, take a suitable tram towards Újezd, then the funicular uphill and walk to the tower.
-  The transfer includes ordinary waits. A 24-hour PID ticket covers the funicular and city transport.
+- **Petřín Tower** (viewing tower); walk + funicular + walk · 35–55 min.
+  From Jungmann Hotel, walk 18–22 min along Národní and across Most Legií to the Újezd funicular entrance. Take the funicular uphill, then walk to the tower. Alternatively, walk 5–7 min to Národní třída and take a suitable tram to Újezd if conditions favour it.
+  The total includes ordinary funicular waits, not a long queue. Confirm operation before setting out; if suspended, use the Pohořelec / Strahov alternative below. A 24-hour PID ticket covers the funicular and city transport.
 - **Petřín Hill** (park / viewpoints); local walking; no separate transfer.
   Explore the tower surroundings and open paths before descending.
 - **Lunch at Újezd** (meal); walk + funicular downhill + walk · 20–30 min.
@@ -130,27 +130,27 @@ Reach Petřín by funicular, explore Lesser Town, then cross the bridge towards 
 - **Wenceslas Square Christmas Market** (Christmas market); walk from the Old Town end of the bridge · 18–22 min.
   Continue through the Old Town lanes to the lower part of Václavské náměstí for the second main Christmas market.
 
-Evening: dinner nearby, 5–10 min on foot. Return to the hotel area in about 20–25 min on foot, or 15–25 min by metro and walking; pack tonight.
+Evening: dinner near the lower end of Wenceslas Square, 5–10 min on foot, then approximately 3–10 min back to Jungmann Hotel depending on the restaurant. The hotel is only 2–5 min from the lower-square market area; no metro or car is needed. Pack tonight.
 
-**Poor visibility:** Replace the tower with Strahov Library if the view is obscured. Travel via Pohořelec instead, approximately 35–50 min from the hotel area, then allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.
+**Poor visibility or suspended funicular:** Replace the tower with Strahov Library if the view is obscured or the funicular is not operating. Walk 5–7 min from Jungmann Hotel to Národní třída, take tram 22 to Pohořelec and walk to Strahov, approximately 35–50 min altogether. Allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.
 
 **Waldstein Garden:** Closed in December. Petřín provides the outdoor park time instead.
 
 ## Thu · 24 Dec: Breakfast, airport and home
 
-Assumed Smartwings flight: PRG 12:45 → TLV 17:35, local times. Have breakfast and check out before the airport transfer.
+Flight home on 24 December. Provisional airline and times: Smartwings, PRG 12:45 → TLV 17:35, local times. Confirm against the issued ticket. Have breakfast and check out before the airport transfer.
 
-- **Prague Airport Terminal 1** (airport); pre-arranged car · 30–45 min.
-  Arrange collection early enough to reach the terminal about three hours before departure. Follow any earlier reporting instruction from the airline.
-  This travel day requires an earlier start than your sightseeing days. Confirm Christmas Eve breakfast and the pickup beforehand; no city stop on the way.
+- **Prague Airport Terminal 1** (airport); Bolt, including pickup access and collection · 45–65 min.
+  Take Bolt from Jungmann Hotel to Terminal 1 for the non-Schengen flight to Tel Aviv; reconfirm the terminal on the ticket. Allow roughly 30–45 min driving plus pickup access and collection. Aim to reach the terminal about three hours before departure, or earlier if instructed by the airline.
+  Begin the pickup process about 4½ hours before departure, leaving contingency beyond the transfer estimate. Confirm the legal pickup point with the hotel and app. Check Christmas Eve breakfast arrangements; this travel day needs an earlier start than sightseeing days. If no driver accepts promptly, ask reception to arrange a taxi rather than consuming the airport margin.
 
-## Where to stay
+## Your hotel
 
-### Haštalská / Haštalské náměstí to Náměstí Republiky
+### Jungmann Hotel (hotel)
 
-Look in north-eastern Old Town, around Haštalská and the quieter side streets towards Náměstí Republiky. This gives easy access to Old Town Square, breakfast cafés, the Municipal House, shopping, trams and metro B. Most nearby central walks are around 5–10 minutes; routes currently use Haštalské náměstí as the reference point.
+Booked for six nights, 18–24 December 2026. Address: Jungmannovo náměstí 2, 110 00 Prague, Czech Republic. All hotel-related routes use this address. Můstek metro A/B and the lower end of Wenceslas Square are about 2–4 min away on foot; Old Town Square is about 8–12 min, Národní třída tram stop 5–7 min, and Palladium 15–18 min.
 
-Choose a rear or courtyard-facing room off the main tram streets and away from Dlouhá’s bars. Confirm sound insulation, heating, blackout curtains, a lift if needed and late check-in. Ask which way the actual room faces: the address alone does not establish quietness.
+Confirm late arrival and access after a flight delay, breakfast availability and the early Christmas Eve checkout. Request a quiet room and confirm the legal Bolt pickup/drop-off point; pedestrian access restrictions may mean a short walk with the bags. Hotel payment, breakfast inclusion and cancellation conditions are those on your reservation, not assumed here.
 
 ## The two Christmas markets
 
@@ -161,11 +161,11 @@ Choose a rear or courtyard-facing room off the main tram streets and away from D
 
 **Walk short hops; save time on longer ones:** Walk short central hops, normally up to about 22 minutes, allowing more for hills. For longer journeys, compare Bolt / Uber with public transport door to door, including collection, walking, waits and any traffic. A meaningful time saving is worth paying for; public transport is not compulsory just because it is cheaper.
 
-**Where cars make sense:** Use Bolt / Uber for both Troja legs and the airport. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.
+**Where cars make sense:** Bolt is the chosen transfer for both airport journeys. Use Bolt / Uber for both Troja legs. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.
 
 **Which tickets to buy:** Use singles on walking-heavy days. On the Petřín day, a 24-hour app ticket costs CZK 140 (≈NIS 20) per person and includes both funicular rides. A 72-hour app ticket costs CZK 340 (≈NIS 48) per person; buy it only if you expect enough journeys to justify it.
 
-**Airport alternative:** Trolleybus 59 plus metro A and a final walk takes approximately 60–80 min door to door. Two 90-minute app tickets cost CZK 92 (≈NIS 13), excluding any applicable luggage supplement. The planned car is more convenient with bags and the late arrival.
+**Airport journeys by Bolt:** Allow 40–65 min from the arrivals pickup process to Jungmann Hotel after collecting bags, and 45–65 min from hotel pickup access to the departure terminal. These include collection and any short access walk; the drive itself is roughly 30–45 min. Follow the app’s airport meeting point and confirm legal vehicle access near the hotel. Select a car with enough luggage capacity; live traffic, collection and fare estimates override these planning ranges.
 
 | Validity | App / adult | App / two | Paper / adult |
 | --- | --- | --- | --- |
@@ -185,12 +185,11 @@ NIS equivalents are approximate, rounded using CZK 1 ≈ NIS 0.1413 and USD 1 �
 
 ## Must book ahead, and when
 
-- **Now: Flights and hotel.** Choose the flight fare deliberately and reserve the six-night hotel on free-cancellation terms where available. Check baggage, refundable deposits, the cancellation deadline and late check-in.
 - **When travel is confirmed and the December programme opens: Municipal House English tour.** Reserve a Tuesday tour. Check both this and the Old Town Hall programme before paying; the two visits can exchange days if needed.
   [Book an English tour](https://www.obecnidum.cz/en/tours/)
 - **When travel is confirmed and Sunday slots are available: Old Town Hall English tour and tower.** Reserve a Sunday afternoon tour and a product including the historical interiors and tower. Leave generous margin after Troja, the return journey and lunch.
   [Old Town Hall tickets](https://prague.eu/en/objevujte/old-town-hall-with-astronomical-clock-staromestska-radnice-s-orlojem/)
-- **1–3 days before departure home: Christmas Eve airport transfer.** Arrange a reliable pickup with enough margin for the flight. If using an app reservation, check its conditions rather than assuming a driver is guaranteed.
+- **1–3 days before departure home: Christmas Eve Bolt pickup.** Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown on Day 7. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.
 
 ### Everything else: buy there
 

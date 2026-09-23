@@ -5,7 +5,7 @@ Public planning itinerary for two, 18–24 December 2026.
 - [Live itinerary](https://oyamnahtanoj.github.io/prague/)
 - [Plain Markdown version](itinerary.md)
 
-Flights are assumptions supplied by the traveller. Nothing has been booked by this project. The provisional base is Haštalské náměstí; the exact hotel and December English tours remain to be selected.
+The traveller has booked Jungmann Hotel, Jungmannovo náměstí 2, for six nights. Flight dates are 18 and 24 December; the original Smartwings flight times remain provisional because the latest supplied details contained dates but no times or airline. No final fare or baggage allowance is assumed. Airport journeys use Bolt. December English tours remain to be selected. This project has not made any reservations.
 
 ## Edit and build
 
