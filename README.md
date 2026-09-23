@@ -1,4 +1,4 @@
-# Prague at Christmas
+# Prague
 
 Public planning itinerary for two, 18–24 December 2026.
 
@@ -20,6 +20,6 @@ Commit the regenerated `index.html` and `itinerary.md` with the sources. GitHub 
 
 ## Verification limits
 
-The validator checks the modelled upper-bound transfer arithmetic, stated pre-tour buffers, supplied closing times, sightseeing start and end times, requested-sight coverage, airport margin, local flight-time arithmetic, internal HTML anchors and basic markup. It cannot certify future opening hours, legal road access, live queues, ticket availability, the final hotel’s route or completeness of official announcements. Those are manual/source checks, with remaining uncertainties disclosed on the page.
+The page lists stops in order with transfer estimates, not a visit timetable. Flight times remain explicit. The validator checks sight coverage, transfer fields, requested removals, NIS conversion examples, internal anchors and basic markup. It does not certify visit timing, future opening hours, legal road access, queues, ticket availability or actual travel times. Check those against operators before travel. Exchange-rate equivalents are dated estimates, not December guarantees.
 
 The page contains no credentials, booking references or private contact details. The Portugal repository is separate and unchanged.
