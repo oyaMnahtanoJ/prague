@@ -41,8 +41,8 @@ def day_html(day, number):
     <p class="intro">{e(day['intro'])}</p><ol class="schedule">{''.join(rows)}</ol><div class="day-bottom">{dinner}{notes}</div></article>'''
 
 TRANSPORT = [
- ('Walk, then public transport', 'Walk short central hops, normally up to about 22 minutes, allowing more for hills. Use trams and metro for longer journeys. Each person needs a valid ticket; activate app tickets before boarding and follow the countdown. Validate paper tickets once at the start.'),
- ('When a car is worthwhile', 'Use Bolt or Uber for the airport and selectively for Troja if the saved time or walking justifies the price. Compare the total for one car with two public-transport tickets. No car hire is needed.'),
+ ('Walk short hops; save time on longer ones', 'Walk short central hops, normally up to about 22 minutes, allowing more for hills. For longer journeys, compare Bolt / Uber with public transport door to door, including collection, walking, waits and any traffic. A meaningful time saving is worth paying for; public transport is not compulsory just because it is cheaper.'),
+ ('Where cars make sense', 'Use Bolt / Uber for both Troja legs and the airport. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.'),
  ('Which tickets to buy', f'Use singles on walking-heavy days. On the Petřín day, a 24-hour app ticket costs {price(140)} per person and includes both funicular rides. A 72-hour app ticket costs {price(340)} per person; buy it only if you expect enough journeys to justify it.'),
  ('Airport alternative', f'Trolleybus 59 plus metro A and a final walk takes approximately 60–80 min door to door. Two 90-minute app tickets cost {price(92)}, excluding any applicable luggage supplement. The planned car is more convenient with bags and the late arrival.'),
 ]
@@ -54,7 +54,6 @@ CAR = [
  'These are budgeting estimates for both of you together, not live quotes or caps. Check the app total before ordering; surge pricing can cost more.',
 ]
 ON_DAY = 'Buy the Castle circuit, Lobkowicz Palace, Jewish Town circuit, ordinary Troja garden admission, Petřín Tower and St Nicholas Church tickets there. Public transport is also bought as needed; the two markets need no admission ticket. On-site purchase may involve a queue, so check daily access before setting out.'
-CONDITIONAL = 'Only if you choose the optional Crystal Garden evening: check the Sunday sessions and book once the programme is available and your trip is confirmed. This is not required for the ordinary daytime garden visit.'
 FX_NOTE = f'NIS equivalents are approximate, rounded using CZK 1 ≈ NIS {CZK_NIS} and USD 1 ≈ NIS {USD_NIS}, checked {UPDATED}. December rates and card fees may differ.'
 
 def build():
@@ -78,11 +77,11 @@ def build():
 {''.join(day_html(d,i) for i,d in enumerate(DAYS,1))}
 <section id="stay"><h2>Where to stay</h2><div class="panel"><h3>{e(HOTEL[0])}</h3><p>{e(HOTEL[1])}</p><p class="small">{e(HOTEL[2])}</p></div></section>
 <section id="markets"><h2>The two Christmas markets</h2><div class="grid">{markets}</div></section>
-<section id="transport"><h2>Getting around, and what it costs</h2><p class="lede">Public transport usually wins on price for two people; cars buy convenience on selected journeys.</p><div class="panel">{transports}<p class="small">{link('fares')} · {link('pid')} · {link('funicular')}</p></div>
+<section id="transport"><h2>Getting around, and what it costs</h2><p class="lede">Take Bolt / Uber when it saves meaningful time. Walk the compact centre; use public transport where it is equally quick or more direct.</p><div class="panel">{transports}<p class="small">{link('fares')} · {link('pid')} · {link('funicular')}</p></div>
 <div class="panel"><h3>Public transport fares</h3><div class="table-scroll"><table><thead><tr><th scope="col">Validity</th><th scope="col">App / adult</th><th scope="col">App / two adults</th><th scope="col">Paper / adult</th></tr></thead><tbody>{fares}</tbody></table></div>
 <p class="small">Ticket validity is shown here, not a suggested visit duration. Petřín is included in 24-hour and 72-hour tickets, but not ordinary 30-minute or 90-minute tickets. A standalone funicular ride costs {e(price(90))} in the app or {e(price(100))} otherwise, per person, one way.</p>
 <h3>Car budgeting, per vehicle</h3>{car}<p class="small">{e(FX_NOTE)} {link('czk-rate')} · {link('usd-rate')}</p></div></section>
-<section id="book"><h2>Must book ahead, and when</h2><p class="lede">The short advance-booking list for this plan. Buy the other admission tickets there.</p><div class="panel">{bookings}</div><div class="panel"><h3>Everything else: buy there</h3><p>{e(ON_DAY)}</p><p class="small">{e(CONDITIONAL)} {link('crystal')}</p></div></section>
+<section id="book"><h2>Must book ahead, and when</h2><p class="lede">The short advance-booking list for this plan. Buy the other admission tickets there.</p><div class="panel">{bookings}</div><div class="panel"><h3>Everything else: buy there</h3><p>{e(ON_DAY)}</p></div></section>
 </main><footer class="footer"><div class="container">Prague · 18–24 December 2026</div></footer></body></html>'''
     (ROOT/'index.html').write_text('\n'.join(line.rstrip() for line in html.splitlines())+'\n', encoding='utf-8')
     md=['# Prague','','18–24 December 2026','',intro,'',flight_price,'']
@@ -105,7 +104,7 @@ def build():
     for w,t,p,s in BOOKINGS:
         md += [f'- **{w}: {t}.** {p}']
         if s: md.append(f'  [{SOURCES[s][0]}]({SOURCES[s][1]})')
-    md += ['','### Everything else: buy there','',ON_DAY,'',CONDITIONAL,'']
+    md += ['','### Everything else: buy there','',ON_DAY,'']
     (ROOT/'itinerary.md').write_text('\n'.join(md),encoding='utf-8')
     print('Built index.html and itinerary.md')
 

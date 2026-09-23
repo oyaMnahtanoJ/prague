@@ -22,7 +22,7 @@ Breakfast at leisure. Approach the Castle from the west, then work east through 
 
 - **Hradčanské náměstí** (historic square / Hradčany district); walk + tram + walk · 35–50 min.
   Walk to Dlouhá třída; take a tram towards Malostranská, then tram 22 to Pohořelec. Walk downhill through Hradčany to the square.
-  The transfer includes ordinary waits. Confirm the current tram route before setting out.
+  Bolt to a legal Hradčanské náměstí drop-off takes approximately 25–40 min including collection. Choose it if the live door-to-door comparison shows a meaningful saving; otherwise the tram route is straightforward.
 - **St Vitus Cathedral** (cathedral interior); walk + entry allowance · 10–15 min.
   Enter the Castle complex and visit the ticketed cathedral interior. Buy the Castle circuit ticket once.
   Services can restrict entry. Visit the Castle interiors before the separately ticketed Lobkowicz Palace, which normally closes later.
@@ -44,36 +44,35 @@ Evening: dinner in Old Town, about 5–10 min on foot from the market; then 5–
 
 **Saturday routing:** The Jewish Museum is closed on Saturdays. Saturday also avoids the cathedral’s later Sunday tourist opening.
 
-## Sun · 20 Dec: Troja Botanical Garden
+## Sun · 20 Dec: Troja, Old Town Hall and the Clock
 
-An unhurried garden day, centred on the tropical greenhouse and outdoor collections. The rest of the day stays flexible.
+Troja takes no more than half the day, including travel. Return directly to Old Town for lunch, the Town Hall interiors and the square; no hotel break is built in.
 
-- **Fata Morgana, Prague Botanical Garden** (tropical greenhouse); walk + tram / metro + bus + walk · 45–65 min.
-  Travel via Nádraží Holešovice, then the current Troja bus and the signed walk to Fata Morgana. Use the greenhouse entrance at Trojská 750/194, not a generic garden pin.
-  Bolt / Uber is an alternative, approximately 25–40 min including collection. The greenhouse is closed on Mondays.
+- **Fata Morgana, Prague Botanical Garden** (tropical greenhouse); Bolt / Uber, including collection and entry walk · 25–40 min.
+  Go directly to the Fata Morgana entrance at Trojská 750/194. Focus on the greenhouse rather than trying to cover the entire garden.
+  Public transport takes approximately 45–65 min via Nádraží Holešovice; a car meaningfully reduces this cross-city journey. The greenhouse is closed on Mondays.
 - **Troja outdoor collections** (botanical garden / vineyard viewpoint); walk between garden sections · 10–15 min.
-  Follow open, signed paths through the Japanese and ornamental gardens towards St Claire’s Vineyard viewpoint. Explore at your own pace; winter planting is seasonal.
-  The garden closes early in winter. Check that day’s closing time before entering and prioritise Fata Morgana.
-- **Lunch at the garden** (meal); walk within the garden · 5–10 min.
-  Use the garden café if serving food, or choose somewhere near the southern entrance. Check winter service on arrival.
-- **Return to Old Town** (neighbourhood / café); walk + bus + tram / metro + walk · 45–65 min.
-  Return via Nádraží Holešovice. Keep the remaining afternoon for a café, a stroll or relaxing at the hotel; no extra market or attraction is required.
+  Make one compact circuit through the ornamental garden towards St Claire’s Vineyard viewpoint. Skip distant collections; this is a short outdoor complement to the greenhouse.
+  Leave through an open southern exit towards Kovárna for the car back to the centre.
+- **Lunch near Old Town Square** (meal); walk to pickup + Bolt / Uber + short walk · 30–45 min.
+  Return straight to the Old Town edge and walk to lunch near the square. Vehicles cannot drop you at every pedestrianised doorway.
+  Public transport is approximately 45–65 min. Keep the entire Troja outing within half a day, including both journeys; shorten the outdoor circuit first if delayed.
+- **Old Town Hall** (historic interiors / tower); walk + entry allowance · 5–10 min.
+  Visit the historical rooms on an English tour and go up the tower. Choose the appropriate combined ticket.
+  Reserve a Sunday afternoon tour with margin after the garden, transfer and lunch. If no suitable English tour is offered, exchange this block with Tuesday’s Municipal House visit, subject to both programmes.
+- **Old Town Square and Týn** (historic square / church exterior); walk · 2–3 min.
+  Explore Staroměstské náměstí and see the Church of Our Lady before Týn from outside. This is the architectural visit; Saturday is for the Christmas market.
+- **Astronomical Clock** (clock exterior); walk · 2–3 min.
+  See the dial and façade. Catch the hourly procession if convenient; no need to wait for the next one just for the show.
 
-Evening: dinner near the hotel, approximately 5–15 min on foot.
+Evening: dinner in Old Town, approximately 5–10 min on foot; another 5–15 min back to the hotel area.
 
-**Optional Crystal Garden:** The exhibition is announced for your travel period. If you want the evening light display, confirm the Sunday programme and ticket first; stay in Troja instead of returning earlier. Do not assume evening exhibition admission includes an open greenhouse.
-
-## Mon · 21 Dec: Shopping, with Kafka along the way
+## Mon · 21 Dec: Shopping
 
 A full shopping day with no museum reservations. Spend longer wherever you find things you like.
 
-- **Kafka’s rotating head at Quadrio** (public sculpture); walk · 18–22 min.
-  Walk south through Old Town to David Černý’s sculpture in the Quadrio courtyard.
-  The separate Kafka Memorial beside the Spanish Synagogue is on Tuesday. Movement of the head is not guaranteed at every moment.
-- **Quadrio** (shopping centre); walk · 1–3 min.
-  Browse before continuing towards Wenceslas Square.
-- **Wenceslas Square shops** (shopping boulevard / bookshops); walk · 10–15 min.
-  Browse the boulevard and bookshops, including Luxor if desired.
+- **Wenceslas Square shops** (shopping boulevard / bookshops); walk from the hotel area · 18–22 min.
+  Walk south through Old Town. Browse the boulevard and bookshops, including Luxor if desired.
 - **Lunch near Wenceslas Square** (meal); walk · 3–5 min.
   An unhurried lunch with no timed attraction afterwards.
 - **Na Příkopě** (shopping street); walk · 5–10 min.
@@ -83,9 +82,9 @@ A full shopping day with no museum reservations. Spend longer wherever you find 
 
 Evening: dinner around Náměstí Republiky or Haštalská, about 5–10 min on foot; another 5–10 min back to the hotel.
 
-## Tue · 22 Dec: Josefov, Old Town and the Municipal House
+## Tue · 22 Dec: Jewish quarter and the Municipal House
 
-The Jewish quarter first, then a south-east progression through Old Town. Fit the afternoon order around the English tours actually offered.
+Give the Jewish quarter a substantial morning, then continue through Old Town to the Municipal House. The actual English-tour programme determines the afternoon order.
 
 - **Maisel Synagogue** (synagogue / museum); walk · 8–12 min.
   Start the Jewish Town circuit. Buy a combined ticket including the Spanish and Old-New synagogues.
@@ -97,22 +96,13 @@ The Jewish quarter first, then a south-east progression through Old Town. Fit th
   Visit the interior using the appropriate combined ticket.
 - **Spanish Synagogue** (synagogue / museum); walk · 5–8 min.
   The richly decorated interior and museum displays.
-- **Franz Kafka Memorial** (public sculpture); walk · 1–2 min.
-  Jaroslav Róna’s sculpture beside the synagogue.
 - **Lunch in Josefov** (meal); walk · 3–5 min.
   Lunch around Dušní or V Kolkovně.
-- **Old Town Hall** (historic interiors / tower); walk + entry allowance · 10–15 min.
-  Visit the historical rooms on an English tour and go up the tower. Choose the appropriate combined ticket.
-  Reserve a suitable English tour after the Municipal House programme is available; there is no assumed slot.
-- **Old Town Square and Týn** (historic square / church exterior); walk · 2–3 min.
-  Explore Staroměstské náměstí and see the Church of Our Lady before Týn from outside.
-- **Astronomical Clock** (clock exterior); walk · 2–3 min.
-  See the dial and façade. Catch the hourly procession if convenient; no need to wait for the next one just for the show.
-- **Celetná and Powder Gate** (historic street / gate exterior); walk · 10–15 min.
-  Walk east along Celetná to the Powder Gate.
+- **Celetná and Powder Gate** (historic street / gate exterior); walk from Josefov via Old Town · 15–20 min.
+  Continue through Old Town and east along Celetná to the Powder Gate.
 - **Obecní dům, Municipal House** (Art Nouveau interior tour); walk · 2–5 min.
   Take an English guided tour of the interiors.
-  Book this first, then fit Old Town Hall around it. If the offered departure requires reversing the afternoon, allow 12–18 min on foot between the two buildings.
+  Reserve an available English tour for Tuesday. If necessary, exchange this visit with Sunday’s Old Town Hall block rather than forcing unavailable slots.
 
 Evening: dinner near Náměstí Republiky, about 5–10 min on foot; another 5–10 min back to the hotel area.
 
@@ -133,10 +123,8 @@ Reach Petřín by funicular, explore Lesser Town, then cross the bridge towards 
   The major Lesser Town church on Malostranské náměstí, not the different church in Old Town Square.
 - **Malostranské náměstí and Lesser Town lanes** (historic district); local walking; no separate transfer.
   Explore the square and nearby lanes towards Mostecká; continue downhill.
-- **Kampa and Na Kampě** (riverside park / square); walk downhill · 8–12 min.
-  River views and quiet lanes south of the bridge.
-- **Shakespeare and Sons** (bookshop interior); walk · 8–12 min.
-  Browse the English-language shelves at U Lužického semináře 10.
+- **Shakespeare and Sons** (bookshop interior); walk downhill · 5–8 min.
+  Continue directly from the Lesser Town lanes to the English-language shelves at U Lužického semináře 10.
 - **Charles Bridge** (historic bridge / riverside views); walk to bridge · 3–5 min.
   Cross from Lesser Town to Old Town, pausing for views and photographs. Walking straight across takes about 8–10 min, longer with stops.
 - **Wenceslas Square Christmas Market** (Christmas market); walk from the Old Town end of the bridge · 18–22 min.
@@ -146,7 +134,7 @@ Evening: dinner nearby, 5–10 min on foot. Return to the hotel area in about 20
 
 **Poor visibility:** Replace the tower with Strahov Library if the view is obscured. Travel via Pohořelec instead, approximately 35–50 min from the hotel area, then allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.
 
-**Waldstein Garden:** Closed in December. Petřín and Kampa provide the outdoor park time instead.
+**Waldstein Garden:** Closed in December. Petřín provides the outdoor park time instead.
 
 ## Thu · 24 Dec: Breakfast, airport and home
 
@@ -171,9 +159,9 @@ Choose a rear or courtyard-facing room off the main tram streets and away from D
 
 ## Transport and costs
 
-**Walk, then public transport:** Walk short central hops, normally up to about 22 minutes, allowing more for hills. Use trams and metro for longer journeys. Each person needs a valid ticket; activate app tickets before boarding and follow the countdown. Validate paper tickets once at the start.
+**Walk short hops; save time on longer ones:** Walk short central hops, normally up to about 22 minutes, allowing more for hills. For longer journeys, compare Bolt / Uber with public transport door to door, including collection, walking, waits and any traffic. A meaningful time saving is worth paying for; public transport is not compulsory just because it is cheaper.
 
-**When a car is worthwhile:** Use Bolt or Uber for the airport and selectively for Troja if the saved time or walking justifies the price. Compare the total for one car with two public-transport tickets. No car hire is needed.
+**Where cars make sense:** Use Bolt / Uber for both Troja legs and the airport. For the Castle or other longer hops, use the live comparison: roughly 15–20 minutes saved is a useful practical guide, not a rigid rule. A car is not automatically quicker in the pedestrianised centre, and there is no reason to drive a short walk. No car hire is needed.
 
 **Which tickets to buy:** Use singles on walking-heavy days. On the Petřín day, a 24-hour app ticket costs CZK 140 (≈NIS 20) per person and includes both funicular rides. A 72-hour app ticket costs CZK 340 (≈NIS 48) per person; buy it only if you expect enough journeys to justify it.
 
@@ -198,14 +186,12 @@ NIS equivalents are approximate, rounded using CZK 1 ≈ NIS 0.1413 and USD 1 �
 ## Must book ahead, and when
 
 - **Now: Flights and hotel.** Choose the flight fare deliberately and reserve the six-night hotel on free-cancellation terms where available. Check baggage, refundable deposits, the cancellation deadline and late check-in.
-- **When travel is confirmed and the December programme opens: Municipal House English tour.** Reserve a suitable Tuesday tour. This is the main schedule-dependent booking; choose it before Old Town Hall.
+- **When travel is confirmed and the December programme opens: Municipal House English tour.** Reserve a Tuesday tour. Check both this and the Old Town Hall programme before paying; the two visits can exchange days if needed.
   [Book an English tour](https://www.obecnidum.cz/en/tours/)
-- **After choosing the Municipal House tour: Old Town Hall English tour and tower.** Reserve a compatible English tour and a product including the historical interiors and tower. Leave room for lunch and the walk between the two buildings.
+- **When travel is confirmed and Sunday slots are available: Old Town Hall English tour and tower.** Reserve a Sunday afternoon tour and a product including the historical interiors and tower. Leave generous margin after Troja, the return journey and lunch.
   [Old Town Hall tickets](https://prague.eu/en/objevujte/old-town-hall-with-astronomical-clock-staromestska-radnice-s-orlojem/)
 - **1–3 days before departure home: Christmas Eve airport transfer.** Arrange a reliable pickup with enough margin for the flight. If using an app reservation, check its conditions rather than assuming a driver is guaranteed.
 
 ### Everything else: buy there
 
 Buy the Castle circuit, Lobkowicz Palace, Jewish Town circuit, ordinary Troja garden admission, Petřín Tower and St Nicholas Church tickets there. Public transport is also bought as needed; the two markets need no admission ticket. On-site purchase may involve a queue, so check daily access before setting out.
-
-Only if you choose the optional Crystal Garden evening: check the Sunday sessions and book once the programme is available and your trip is confirmed. This is not required for the ordinary daytime garden visit.

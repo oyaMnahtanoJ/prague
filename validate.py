@@ -47,10 +47,12 @@ for name in ('content.py','index.html','itinerary.md'):
     check('\u2014' not in (ROOT/name).read_text(),f'Em dash in {name}')
 check('Waldstein' in html and 'Closed in December' in html, 'Seasonal omission not explained')
 check('<h1>Prague</h1>' in html and '<title>Prague</title>' in html,'Incorrect headline')
-for unwanted in ('id="sources"','class="stats"','class="time"','class="duration"','Planning edition','Residence Agnes','Hotel Josef','Hotel Haštal','Charles University','Náměstí Míru','Náměstí Republiky Christmas Market','15:15','18:00'):
+for unwanted in ('id="sources"','class="stats"','class="time"','class="duration"','Planning edition','Residence Agnes','Hotel Josef','Hotel Haštal','Charles University','Náměstí Míru','Náměstí Republiky Christmas Market','15:15','18:00','Kafka','Kampa','Na Kampě','Crystal Garden'):
     check(unwanted not in html, f'Removed content remains: {unwanted}')
 check(sum(r['kind']=='Christmas market' for d in DAYS for r in d['rows'])==2,'Must have two market stops')
 check('three hours before departure' in html,'Missing airport margin guidance')
+check('no more than half the day' in html,'Missing Troja half-day limit')
+check('hall' in {c for r in DAYS[2]['rows'] for c in r['cover']}, 'Old Town Hall not moved to Sunday')
 from build import price
 check(price(100)=='CZK 100 (≈NIS 14)','CZK conversion regression')
 check(price(686,'USD')=='USD 686 (≈NIS 2,070)','USD conversion regression')
