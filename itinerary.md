@@ -6,7 +6,7 @@ Stops are listed in visiting order, without a daily timetable or visit durations
 
 Confirmed flights, all times local: 18 December, TLV 18:25 → PRG 21:35; 24 December, PRG 12:45 → TLV 17:35. Prague is one hour behind Israel on these dates. Check the issued tickets for baggage allowance and fare conditions.
 
-## Fri · 18 Dec: Flight to Prague; settle in
+## Day 0 · Fri · 18 Dec: Arrival
 
 Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed ticket times; flight duration 4 h 10 min. No sightseeing on arrival.
 
@@ -16,7 +16,7 @@ Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed
 
 A snack at the hotel if needed.
 
-## Sat · 19 Dec: Hradčany, the Castle and Lobkowicz
+## Day 1 · Sat · 19 Dec: Hradčany, the Castle and Lobkowicz
 
 Breakfast at leisure. Approach the Castle from the west, then work east through the complex.
 
@@ -44,7 +44,7 @@ Evening: choose dinner on the Old Town route towards Jungmann Hotel, about 5–1
 
 **Saturday routing:** The Jewish Museum is closed on Saturdays. Saturday also avoids the cathedral’s later Sunday tourist opening.
 
-## Sun · 20 Dec: Troja, Old Town Hall and the Clock
+## Day 2 · Sun · 20 Dec: Troja, Old Town Hall and the Clock
 
 Troja takes no more than half the day, including travel. Return directly to Old Town for lunch, the Town Hall interiors and the square; no hotel break is built in.
 
@@ -67,7 +67,7 @@ Troja takes no more than half the day, including travel. Return directly to Old 
 
 Evening: choose dinner towards Jungmann Hotel, approximately 5–10 min on foot, then another 5–10 min to the hotel depending on the restaurant. Directly from the Astronomical Clock to the hotel: walk 8–12 min.
 
-## Mon · 21 Dec: Shopping
+## Day 3 · Mon · 21 Dec: Shopping
 
 A full shopping day with no museum reservations. Spend longer wherever you find things you like.
 
@@ -82,7 +82,7 @@ A full shopping day with no museum reservations. Spend longer wherever you find 
 
 Evening: dinner around Náměstí Republiky or along Na Příkopě towards the hotel, about 5–10 min from Palladium; then approximately 5–15 min to Jungmann Hotel depending on the restaurant. Directly from Palladium to the hotel: walk 15–18 min.
 
-## Tue · 22 Dec: Jewish quarter and the Municipal House
+## Day 4 · Tue · 22 Dec: Jewish quarter and the Municipal House
 
 Give the Jewish quarter a substantial morning, then continue through Old Town to the Municipal House. The actual English-tour programme determines the afternoon order.
 
@@ -108,7 +108,7 @@ Evening: dinner near Náměstí Republiky or along Na Příkopě towards the hot
 
 **Jewish Museum circuit:** The Jewish Museum consists of several sites, not another building after the synagogues. The five sites above form the planned circuit.
 
-## Wed · 23 Dec: Petřín, Lesser Town, books and Charles Bridge
+## Day 5 · Wed · 23 Dec: Petřín, Lesser Town, books and Charles Bridge
 
 Reach Petřín by funicular, explore Lesser Town, then cross the bridge towards the final Christmas market.
 
@@ -136,7 +136,7 @@ Evening: dinner near the lower end of Wenceslas Square, 5–10 min on foot, then
 
 **Waldstein Garden:** Closed in December. Petřín provides the outdoor park time instead.
 
-## Thu · 24 Dec: Breakfast, airport and home
+## Thu · 24 Dec: Departure
 
 Flight home on 24 December: PRG 12:45 → TLV 17:35, local times. Confirmed ticket times; flight duration 3 h 50 min. Have breakfast and check out before the airport transfer.
 
@@ -189,7 +189,7 @@ NIS equivalents are approximate, rounded using CZK 1 ≈ NIS 0.1413 and USD 1 �
   [Book an English tour](https://www.obecnidum.cz/en/tours/)
 - **When travel is confirmed and Sunday slots are available: Old Town Hall English tour and tower.** Reserve a Sunday afternoon tour and a product including the historical interiors and tower. Leave generous margin after Troja, the return journey and lunch.
   [Old Town Hall tickets](https://prague.eu/en/objevujte/old-town-hall-with-astronomical-clock-staromestska-radnice-s-orlojem/)
-- **1–3 days before departure home: Christmas Eve Bolt pickup.** Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown on Day 7. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.
+- **1–3 days before departure home: Christmas Eve Bolt pickup.** Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown under Departure. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.
 
 ### Everything else: buy there
 

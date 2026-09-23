@@ -20,7 +20,7 @@ def row(name, kind, mode, low, high, text, note='', target=None, cover=()):
                 note=note, target=target or name+', Prague', cover=list(cover))
 
 DAYS = [
- dict(id='d1', date='2026-12-18', label='Fri · 18 Dec', title='Flight to Prague; settle in',
+ dict(id='d1', date='2026-12-18', label='Fri · 18 Dec', title='Arrival',
       intro='Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed ticket times; flight duration 4 h 10 min. No sightseeing on arrival.',
       rows=[row('Jungmann Hotel','hotel','Bolt, including collection and final access walk',40,65,
                 'After passport control and collecting your bags, order Bolt to Jungmannovo náměstí 2. Follow the pickup point shown in the app; the official airport taxi rank is not necessarily the Bolt meeting point. Allow roughly 30–45 min driving, plus collection and any short walk from a legal drop-off.',
@@ -105,7 +105,7 @@ DAYS = [
       ], dinner='Evening: dinner near the lower end of Wenceslas Square, 5–10 min on foot, then approximately 3–10 min back to Jungmann Hotel depending on the restaurant. The hotel is only 2–5 min from the lower-square market area; no metro or car is needed. Pack tonight.',
       notes=[('Poor visibility or suspended funicular','Replace the tower with Strahov Library if the view is obscured or the funicular is not operating. Walk 5–7 min from Jungmann Hotel to Národní třída, take tram 22 to Pohořelec and walk to Strahov, approximately 35–50 min altogether. Allow 20–25 min downhill to Lesser Town for lunch. Standard library tickets offer doorway views into the halls, not access among the books.'),
              ('Waldstein Garden','Closed in December. Petřín provides the outdoor park time instead.')]),
- dict(id='d7', date='2026-12-24', label='Thu · 24 Dec', title='Breakfast, airport and home',
+ dict(id='d7', date='2026-12-24', label='Thu · 24 Dec', title='Departure',
       intro='Flight home on 24 December: PRG 12:45 → TLV 17:35, local times. Confirmed ticket times; flight duration 3 h 50 min. Have breakfast and check out before the airport transfer.',
       rows=[row('Prague Airport Terminal 1','airport','Bolt, including pickup access and collection',45,65,
                 'Take Bolt from Jungmann Hotel to Terminal 1 for the non-Schengen flight to Tel Aviv; reconfirm the terminal on the ticket. Allow roughly 30–45 min driving plus pickup access and collection. Aim to reach the terminal about three hours before departure, or earlier if instructed by the airline.',
@@ -121,7 +121,7 @@ HOTEL = (
 BOOKINGS = [
  ('When travel is confirmed and the December programme opens', 'Municipal House English tour', 'Reserve a Tuesday tour. Check both this and the Old Town Hall programme before paying; the two visits can exchange days if needed.', 'municipal'),
  ('When travel is confirmed and Sunday slots are available', 'Old Town Hall English tour and tower', 'Reserve a Sunday afternoon tour and a product including the historical interiors and tower. Leave generous margin after Troja, the return journey and lunch.', 'hall'),
- ('1–3 days before departure home', 'Christmas Eve Bolt pickup', 'Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown on Day 7. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.', None),
+ ('1–3 days before departure home', 'Christmas Eve Bolt pickup', 'Check whether Bolt offers a scheduled ride for the hotel pickup and review its conditions; do not assume a reservation guarantees a driver. Otherwise request on the morning with the margin shown under Departure. Confirm the meeting point with the hotel and keep a reception-arranged taxi as backup.', None),
 ]
 MARKETS = [
  ('Old Town Square', 'The main tree, historic façades and flagship atmosphere.', '28 Nov 2026–6 Jan 2027', 'Saturday evening'),

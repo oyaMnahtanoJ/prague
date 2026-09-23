@@ -36,7 +36,8 @@ def day_html(day, number):
         <div class="links"><a href="{e(maplink(r), quote=True)}">Map pin</a></div></div></li>''')
     notes = ''.join(block(t,p) for t,p in day['notes'])
     dinner = f'<p class="dinner">{e(day["dinner"])}</p>' if day['dinner'] else ''
-    return f'''<article class="day" id="{day['id']}"><header class="day-head"><div class="daynum">{number}</div>
+    badge = f'<div class="daynum" aria-label="Day {number}">{number}</div>' if number is not None else ''
+    return f'''<article class="day" id="{day['id']}"><header class="day-head">{badge}
     <div><div class="date">{e(day['label'])}</div><h2>{e(day['title'])}</h2></div></header>
     <p class="intro">{e(day['intro'])}</p><ol class="schedule">{''.join(rows)}</ol><div class="day-bottom">{dinner}{notes}</div></article>'''
 
@@ -74,7 +75,7 @@ def build():
 <div class="actions"><a href="itinerary.md">Plain-text itinerary</a><a href="https://github.com/oyaMnahtanoJ/prague">GitHub</a><button type="button" onclick="window.print()">Print / save PDF</button></div></header>
 <nav class="jump" aria-label="Jump to day or planning section"><div class="container">{nav}<a href="#stay">Stay</a><a href="#transport">Transport</a><a href="#book">Must book</a></div></nav>
 <main class="container" id="itinerary"><section aria-labelledby="week"><h2 id="week">The week at a glance</h2><div class="panel overview">{overview}</div><p class="small">{e(intro)}</p><p class="small">{e(flight_summary)}</p></section>
-{''.join(day_html(d,i) for i,d in enumerate(DAYS,1))}
+{''.join(day_html(d,i if i < len(DAYS)-1 else None) for i,d in enumerate(DAYS))}
 <section id="stay"><h2>Your hotel</h2><div class="panel"><h3>{e(HOTEL[0])}</h3><p>{e(HOTEL[1])}</p><p class="small">{e(HOTEL[2])}</p></div></section>
 <section id="markets"><h2>The two Christmas markets</h2><div class="grid">{markets}</div></section>
 <section id="transport"><h2>Getting around, and what it costs</h2><p class="lede">Take Bolt / Uber when it saves meaningful time. Walk the compact centre; use public transport where it is equally quick or more direct.</p><div class="panel">{transports}<p class="small">{link('fares')} · {link('pid')} · {link('funicular')}</p></div>
@@ -85,8 +86,9 @@ def build():
 </main><footer class="footer"><div class="container">Prague · 18–24 December 2026</div></footer></body></html>'''
     (ROOT/'index.html').write_text('\n'.join(line.rstrip() for line in html.splitlines())+'\n', encoding='utf-8')
     md=['# Prague','','18–24 December 2026','',intro,'',flight_summary,'']
-    for day in DAYS:
-        md += [f'## {day["label"]}: {day["title"]}','',day['intro'],'']
+    for i,day in enumerate(DAYS):
+        prefix = f'Day {i} · ' if i < len(DAYS)-1 else ''
+        md += [f'## {prefix}{day["label"]}: {day["title"]}','',day['intro'],'']
         for r in day['rows']:
             md += [f'- **{r["name"]}** ({r["kind"]}); {transfer(r)}.',f'  {r["text"]}']
             if r['note']: md.append('  '+r['note'])
