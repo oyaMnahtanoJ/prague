@@ -47,7 +47,10 @@ for name in ('content.py','index.html','itinerary.md'):
     check('\u2014' not in (ROOT/name).read_text(),f'Em dash in {name}')
 check('Waldstein' in html and 'Closed in December' in html, 'Seasonal omission not explained')
 check('<h1>Prague</h1>' in html and '<title>Prague</title>' in html,'Incorrect headline')
-check(re.findall(r'class="daynum"[^>]*>(\d+)</div>',html)==['0','1','2','3','4','5'], 'Expected Day 0 and sightseeing days 1–5 only')
+check(re.findall(r'class="daynum"[^>]*>(\d+)</div>',html)==['1','2','3','4','5'], 'Expected sightseeing days 1–5 only')
+arrival=html.split('<article class="day" id="d1">',1)[1].split('</article>',1)[0]
+check('class="daynum"' not in arrival and '<h2>Arrival</h2>' in arrival, 'Arrival must be unnumbered')
+check('Day 0' not in html and 'Day 0' not in (ROOT/'itinerary.md').read_text(), 'Stale arrival day number')
 departure=html.split('<article class="day" id="d7">',1)[1].split('</article>',1)[0]
 check('class="daynum"' not in departure and '<h2>Departure</h2>' in departure, 'Departure must be unnumbered')
 check('Day 7' not in html and 'Day 7' not in (ROOT/'itinerary.md').read_text(), 'Stale departure day number')

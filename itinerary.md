@@ -6,7 +6,7 @@ Stops are listed in visiting order, without a daily timetable or visit durations
 
 Confirmed flights, all times local: 18 December, TLV 18:25 → PRG 21:35; 24 December, PRG 12:45 → TLV 17:35. Prague is one hour behind Israel on these dates. Check the issued tickets for baggage allowance and fare conditions.
 
-## Day 0 · Fri · 18 Dec: Arrival
+## Fri · 18 Dec: Arrival
 
 Flight to Prague on 18 December: TLV 18:25 → PRG 21:35, local times. Confirmed ticket times; flight duration 4 h 10 min. No sightseeing on arrival.
 
